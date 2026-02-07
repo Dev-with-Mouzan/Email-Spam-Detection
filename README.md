@@ -5,7 +5,8 @@ A modern, AI-powered email spam classification system built with FastAPI backend
 ![Email Spam Detector](https://img.shields.io/badge/ML-Spam%20Detection-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109.0-green)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Demo](https://email-spam-detection-evra.vercel.app/)
+Get Demo at:
+https://email-spam-detection-evra.vercel.app/
 
 ## ✨ Features
 
