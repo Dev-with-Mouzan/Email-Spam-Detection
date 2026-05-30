@@ -28,7 +28,7 @@ https://email-spam-detection-evra.vercel.app/
 
 1. **Clone or navigate to the project directory**
    ```bash
-   cd Email_Spam/Frontend
+   cd Email-Spam-Detection
    ```
 
 2. **Install Python dependencies**
