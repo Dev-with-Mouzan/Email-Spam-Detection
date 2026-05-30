@@ -52,12 +52,12 @@ https://email-spam-detection-evra.vercel.app/
 
 2. **Open the frontend**
    
-   Simply open `index.html` in your web browser:
+   Simply open `Frontend/index.html` in your web browser:
    - Double-click the file, or
    - Right-click → Open with → Your preferred browser
    - Or use a local server:
      ```bash
-     python -m http.server 3000
+     cd Frontend && python -m http.server 3000
      ```
      Then visit: `http://localhost:3000`
 
@@ -137,14 +137,19 @@ FastAPI provides automatic interactive API documentation:
 ## 📁 Project Structure
 
 ```
-Email_Spam/Frontend/
+Email-Spam-Detection/
 ├── main.py                          # FastAPI backend application
-├── spam_email_detector_model.pkl    # Trained ML model
 ├── requirements.txt                 # Python dependencies
-├── index.html                       # Frontend HTML
-├── style.css                        # Styling with glassmorphism
-├── script.js                        # Frontend JavaScript
-└── README.md                        # This file
+├── README.md                        # This file
+├── vercel.json                      # Vercel configuration
+├── Frontend/                        # Frontend assets
+│   ├── index.html                   # Frontend HTML
+│   ├── style.css                    # Styling with glassmorphism
+│   └── script.js                    # Frontend JavaScript
+├── model/                           # ML Model files
+│   ├── spam_email_detector_model.pkl# Trained ML model
+│   └── model_email_phishing.ipynb   # Jupyter notebook for training
+└── DataSet/                         # Training datasets
 ```
 
 ## 🎨 Design Features

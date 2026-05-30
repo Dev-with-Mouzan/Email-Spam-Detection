@@ -44,7 +44,7 @@ async def load_model():
     """Load the ML model on startup"""
     global model
     try:
-        model_path = Path(__file__).parent / "spam_email_detector_model.pkl"
+        model_path = Path(__file__).parent / "model" / "spam_email_detector_model.pkl"
         
         # Try loading with pickle first
         try:
